@@ -1,4 +1,4 @@
-# testpaymnet
+# Quotes App
 
 A new Flutter project.
 
