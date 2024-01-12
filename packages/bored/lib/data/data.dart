@@ -1,0 +1,1 @@
+export 'bored/repository.dart';
