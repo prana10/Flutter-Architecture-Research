@@ -1,3 +1,4 @@
+import 'package:bored/bored.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
@@ -5,10 +6,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: "Flutter Architecture Research",
       debugShowCheckedModeBanner: false,
-      routes: {},
+      routes: {
+        '/': (context) => const BoredScreen(),
+      },
     );
   }
 }

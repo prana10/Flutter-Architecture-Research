@@ -6,7 +6,7 @@ part of 'bored_provider.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$getBoredProviderHash() => r'4c362c651256abb5c7c0fd5b0f8445ba99dc294c';
+String _$getBoredProviderHash() => r'147108f1b68b2440d09ad80e8cad373c90366f84';
 
 /// Copied from Dart SDK
 class _SystemHash {
@@ -34,7 +34,7 @@ class _SystemHash {
 const getBoredProviderProvider = GetBoredProviderFamily();
 
 /// See also [getBoredProvider].
-class GetBoredProviderFamily extends Family<AsyncValue<void>> {
+class GetBoredProviderFamily extends Family<AsyncValue<Bored>> {
   /// See also [getBoredProvider].
   const GetBoredProviderFamily();
 
@@ -75,7 +75,7 @@ class GetBoredProviderFamily extends Family<AsyncValue<void>> {
 }
 
 /// See also [getBoredProvider].
-class GetBoredProviderProvider extends AutoDisposeFutureProvider<void> {
+class GetBoredProviderProvider extends AutoDisposeFutureProvider<Bored> {
   /// See also [getBoredProvider].
   GetBoredProviderProvider(
     WidgetRef widgetRef,
@@ -115,7 +115,7 @@ class GetBoredProviderProvider extends AutoDisposeFutureProvider<void> {
 
   @override
   Override overrideWith(
-    FutureOr<void> Function(GetBoredProviderRef provider) create,
+    FutureOr<Bored> Function(GetBoredProviderRef provider) create,
   ) {
     return ProviderOverride(
       origin: this,
@@ -133,7 +133,7 @@ class GetBoredProviderProvider extends AutoDisposeFutureProvider<void> {
   }
 
   @override
-  AutoDisposeFutureProviderElement<void> createElement() {
+  AutoDisposeFutureProviderElement<Bored> createElement() {
     return _GetBoredProviderProviderElement(this);
   }
 
@@ -154,7 +154,7 @@ class GetBoredProviderProvider extends AutoDisposeFutureProvider<void> {
   }
 }
 
-mixin GetBoredProviderRef on AutoDisposeFutureProviderRef<void> {
+mixin GetBoredProviderRef on AutoDisposeFutureProviderRef<Bored> {
   /// The parameter `widgetRef` of this provider.
   WidgetRef get widgetRef;
 
@@ -163,7 +163,7 @@ mixin GetBoredProviderRef on AutoDisposeFutureProviderRef<void> {
 }
 
 class _GetBoredProviderProviderElement
-    extends AutoDisposeFutureProviderElement<void> with GetBoredProviderRef {
+    extends AutoDisposeFutureProviderElement<Bored> with GetBoredProviderRef {
   _GetBoredProviderProviderElement(super.provider);
 
   @override

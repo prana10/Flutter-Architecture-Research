@@ -1,3 +1,4 @@
+import 'package:bored/bored.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -5,7 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 class NetworkService {
   static Dio dio = Dio(
     BaseOptions(
-      baseUrl: '',
+      baseUrl: AppConfig.baseURL,
       connectTimeout: const Duration(seconds: 60),
       receiveTimeout: const Duration(seconds: 60),
       headers: {

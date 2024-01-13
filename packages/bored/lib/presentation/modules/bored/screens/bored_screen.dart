@@ -17,8 +17,10 @@ class BoredScreen extends ConsumerWidget {
     );
     return Scaffold(
       body: Center(
-        child: Text(
-          "$bored",
+        child: bored.when(
+          data: (data) => Text(data.activity),
+          loading: () => const CircularProgressIndicator(),
+          error: (e, s) => Text(e.toString()),
         ),
       ),
     );
