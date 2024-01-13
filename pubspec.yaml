@@ -10,6 +10,10 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
+  get_it: ^7.6.4
+
+  bored:
+    path: ./packages/bored
 
 dev_dependencies:
   flutter_test:

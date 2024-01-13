@@ -1,0 +1,85 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Flutter-Architecture-Research",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Flutter-Architecture-Research (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "Flutter-Architecture-Research (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "bored",
+            "cwd": "packages/bored",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "bored (profile mode)",
+            "cwd": "packages/bored",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "bored (release mode)",
+            "cwd": "packages/bored",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "counter",
+            "cwd": "packages/counter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "counter (profile mode)",
+            "cwd": "packages/counter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "counter (release mode)",
+            "cwd": "packages/counter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "quotes",
+            "cwd": "packages/quotes",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "quotes (profile mode)",
+            "cwd": "packages/quotes",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "quotes (release mode)",
+            "cwd": "packages/quotes",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
